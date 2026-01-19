@@ -3,7 +3,7 @@ export default function Contact() {
         <main className="min-h-[calc(100vh-64px)] flex flex-col justify-center items-center px-6">
             <div className="max-w-2xl text-center">
                 <h1 className="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-                    Let's Build Something Scalable.
+                    Let&apos;s Build Something Scalable.
                 </h1>
                 <div className="text-lg md:text-xl text-muted space-y-6">
                     <div>

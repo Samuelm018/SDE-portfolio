@@ -1,9 +1,9 @@
 services:
-  - type: web
+  - type: static
     name: portfolio
-    env: node
+    env: static
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    publishDir: out
     branch: main
     envVars:
       - key: NODE_VERSION
